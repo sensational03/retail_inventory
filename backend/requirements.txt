@@ -1,0 +1,8 @@
+crewai
+crewai-tools
+fastapi
+uvicorn[standard]
+sse-starlette
+python-dotenv
+litellm
+groq
