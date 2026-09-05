@@ -1,5 +1,13 @@
 # Richfield Fertilisers — Multi-Agent Pricing System
 
+![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=flat&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat&logo=typescript&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-Multi--Agent-FF6B6B?style=flat)
+![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3--70b-F55036?style=flat)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat)
+
 AI-powered pricing, inventory, and procurement system for Richfield Fertilisers Pvt. Ltd., Nashik.  
 Manages 14 × 25 kg bag grades across the Maharashtra distributor network.
 
@@ -256,3 +264,36 @@ Suggestions are per-product and non-destructive — they never overwrite global 
 ---
 
 *Built for Richfield Fertilisers Pvt. Ltd., Nashik — Maharashtra fertiliser distribution network*
+
+---
+
+## Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature/your-feature-name`
+3. **Commit** your changes: `git commit -m 'Add: brief description'`
+4. **Push** to the branch: `git push origin feature/your-feature-name`
+5. **Open** a Pull Request
+
+### Areas open for contribution
+- 🗄️ **Database integration** — swap in-memory state for PostgreSQL / MongoDB
+- 📊 **Analytics dashboard** — sales trend charts and historical pricing graphs
+- 🔔 **Alert system** — email / WhatsApp notifications for critical stock levels
+- 🌐 **Multi-language support** — Marathi / Hindi UI localisation
+- 🧪 **Test coverage** — unit and integration tests for all three agents
+
+Please follow the existing code style and add relevant docstrings to any new tools or agents.
+
+---
+
+## Acknowledgements
+
+- [CrewAI](https://github.com/joaomdmoura/crewAI) — multi-agent orchestration framework
+- [Groq](https://groq.com) — ultra-fast LLaMA 3.3-70b inference
+- [FastAPI](https://fastapi.tiangolo.com) — high-performance Python API framework
+- [Vite + React](https://vitejs.dev) — lightning-fast frontend tooling
+- Richfield Fertilisers Pvt. Ltd. — domain expertise and product catalogue
+
+---
